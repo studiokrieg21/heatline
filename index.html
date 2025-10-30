@@ -53,27 +53,20 @@
 
         .hero-content {
             text-align: center;
-        }
-
-        .app-icon {
-            width: 140px;
-            height: 140px;
-            margin: 0 auto 30px;
-            background: white;
-            border-radius: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 64px;
-            font-weight: bold;
-            color: #667eea;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            animation: float 3s ease-in-out infinite;
+            gap: 80px;
+            flex-wrap: wrap;
         }
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+        .app-icon {
+            width: 240px;
+            height: 240px;
+            object-fit: cover;
+            margin: 0;
+            border-radius: 55px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
         }
 
         h1 {
@@ -94,7 +87,7 @@
         .cta-buttons {
             display: flex;
             gap: 20px;
-            justify-content: center;
+            justify-content: flex-start;
             flex-wrap: wrap;
             margin-bottom: 60px;
         }
@@ -212,6 +205,15 @@
             .cta-buttons {
                 flex-direction: column;
             }
+
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-content > div {
+                text-align: center !important;
+            }
         }
     </style>
 </head>
@@ -219,55 +221,24 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <div class="app-icon">🚀</div>
-                <h1> App</h1>
-                <p class="tagline">The ultimate solution to streamline your workflow</p>
-                <div class="cta-buttons">
-                    <a href="#download" class="btn btn-primary">Download Now</a>
-                    <a href="#features" class="btn btn-secondary">Learn More</a>
-                </div>
-                
-                <div class="features">
-                    <div class="feature-card">
-                        <div class="feature-icon">⚡</div>
-                        <h3>Lightning Fast</h3>
-                        <p>Experience blazing speed with our optimized performance engine</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🔒</div>
-                        <h3>Secure & Private</h3>
-                        <p>Your data is encrypted and protected with industry-leading security</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🎨</div>
-                        <h3>Beautiful Design</h3>
-                        <p>Intuitive interface that makes complex tasks simple and enjoyable</p>
+                <img src="assets/app_icon.png" alt="MyApp Icon" class="app-icon" style="flex-shrink: 0;">
+                <div style="text-align: left; position: relative; top: 20px;">
+                    <h1> Heatline</h1>
+                    <p class="tagline">Description to add</p>
+                    <div class="cta-buttons">
+                        <a href="#download" class="btn btn-primary">Coming soon to the App Store</a>
+                        <a href="mailto:studiokrieg21@gmail.com" class="btn btn-secondary">Contact us</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Ready to Get Started?</h2>
-            <div style="text-align: center;">
-                <a href="https://github.com/yourusername/yourapp" class="btn btn-primary">View on GitHub</a>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="footer-links">
-            <a href="#features">Features</a>
-            <a href="#docs">Documentation</a>
-            <a href="https://github.com/yourusername/yourapp">GitHub</a>
-            <a href="mailto:your.email@example.com">Contact</a>
+            <a href="mailto:studiokrieg21@gmail.com">Contact us for support or feedback: studiokrieg21@gmail.com</a>
         </div>
-        <p style="color: #64748b; margin-top: 20px;">&copy; 2025 MyApp. All rights reserved.</p>
+        <p style="color: #64748b; margin-top: 20px;">&copy; 2025 StudioKrieg21. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
-
-
