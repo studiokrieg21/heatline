@@ -1,28 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Heatline</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: #0f172a;
-            color: #e2e8f0;
-            padding: 40px;
-        }
-        h1 {
-            color: white;
-        }
-        a {
-            color: #667eea;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Heatline</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 20px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      color: white;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 10px;
+      margin-top: 40px;
+    }
+    h1 {
+        margin-top: 20px;
+    }
+    p, li {
+      color: #cbd5e1;
+    }
+    a {
+      color: #667eea;
+      text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    .meta-info {
+        color: #94a3b8;
+        font-size: 0.9em;
+    }
+    .back-link {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 10px 20px;
+        background-color: #1e293b;
+        border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p>placeholder</p>
-    <br>
-    <a href="index.html">Back to Home</a>
+  <h1>Heatline: Dating Insights Privacy Policy</h1>
+  <p class="meta-info">Effective Date: December 2025<br>Last Updated: December 2025</p>
+
+  <p>KriegStudio (“we,” “our,” or “us”) values your privacy. This Privacy Policy explains how Heatline: Dating Insights (“App”) handles your information when you use our services. For simplicity, this document may also refer to the App as “Heatline.” Both names refer to the same application.</p>
+
+  <h2>1. Data We Process</h2>
+  <p>Heatline processes only the minimum data necessary to provide authentication, purchases, analytics, and AI insights. This includes:</p>
+  <ul>
+    <li><strong>Chat Content:</strong> Exported WhatsApp chats are processed locally on your device to compute analytics such as message counts, patterns, and interaction summaries. These analytics remain on your device and are not transmitted externally. For AI assistant functionality only, your latest messages and analytics are sent securely to the OpenAI API to generate insights. Heatline does not store chat content permanently, and no chat data is used for tracking or advertising.</li>
+    <li><strong>Authentication Data:</strong> Email address or Google account ID via Firebase, used to authenticate your account and provide access to purchases.</li>
+    <li><strong>Purchase Data:</strong> Transaction identifiers from Apple, product ID, purchase date, refund status, revocation details, and store source. This data is used to validate purchases, enforce restore rules, and manage refunds.</li>
+    <li><strong>Usage Data:</strong> Token counts (input/output), request counts, expiration status, usage limit status, and timestamps. These records are maintained to enforce fair usage limits and ensure service integrity.</li>
+    <li><strong>Verification Data:</strong> Transaction validation timestamps and linked user IDs, used to confirm the authenticity of purchases and prevent misuse.</li>
+  </ul>
+
+  <h2>2. Purpose of Data Use</h2>
+  <ul>
+    <li><strong>App Functionality:</strong> Authentication, purchase validation, restore rules, usage enforcement.</li>
+    <li><strong>Analytics:</strong> Firebase Analytics collects anonymized usage statistics and crash reports.</li>
+    <li><strong>No Tracking:</strong> Data is not used for advertising, profiling, or cross‑app tracking.</li>
+  </ul>
+
+  <h2>3. AI Insights</h2>
+  <ul>
+    <li>For AI insights, only your latest messages and analytics are sent securely to the OpenAI API for processing.</li>
+    <li>These transmissions are limited to the minimum data required to generate insights.</li>
+    <li>Heatline does not control how OpenAI processes data once received. Please review OpenAI’s own policies for more information.</li>
+  </ul>
+
+  <h2>4. Purchases and Refunds</h2>
+  <ul>
+    <li>Purchases are processed securely through Apple’s App Store.</li>
+    <li>Heatline does not have access to your Apple ID.</li>
+    <li>Heatline only receives a transaction identifier from Apple, which is linked to the username you create in the App.</li>
+    <li>Refunds and billing issues are handled directly by Apple.</li>
+    <li>Heatline reserves the right to restrict future purchases if a user has received more than two refunds.</li>
+    <li>If usage of the AI assistant occurs before or after a refund is processed, Heatline reserves the right to challenge the refund and revoke access.</li>
+  </ul>
+
+  <h2>5. Account Authentication</h2>
+  <ul>
+    <li>Authentication within Heatline is handled via email or Google account through Firebase.</li>
+    <li>These credentials may differ from your Apple ID.</li>
+    <li>Each transaction identifier is associated with a single username. Multiple usernames per transaction identifier are not permitted.</li>
+    <li>If you attempt to restore purchases under a different username than the one originally linked to the transaction identifier, the restore will not work.</li>
+    <li>Authentication data (such as email address or Google account ID) is processed securely via Firebase and used only to provide access, track usage, and manage purchases.</li>
+  </ul>
+
+  <h2>6. Internal Records</h2>
+  <p>Heatline maintains internal records in its Firebase database (region: nam5) to enforce fair usage and manage purchases. These records may include:</p>
+  <ul>
+    <li><strong>User records:</strong> subscription status, expiration date, latest and original transaction IDs, product ID, revocation count, revocation timestamps, refund status, and store source.</li>
+    <li><strong>Transaction records:</strong> expiration status, usage limit status, refund status, product ID, purchase date, revocation details, transaction status, store source, usage metrics (input tokens, output tokens, request count), linked user ID, and verification details (transaction ID, validation timestamp).</li>
+  </ul>
+  <p>These records are used only for purchase validation, refund management, usage enforcement, and service integrity.</p>
+
+  <h2>7. Service Availability</h2>
+  <ul>
+    <li>Heatline’s AI assistant relies on third‑party services, including the OpenAI API and Google Firebase.</li>
+    <li>While we monitor usage and capacity closely, temporary unavailability may occur if usage limits are reached or if third‑party services experience outages.</li>
+    <li>Heatline does not guarantee uninterrupted access to the AI assistant.</li>
+  </ul>
+
+  <h2>8. No Professional Advice</h2>
+  <ul>
+    <li>AI insights are provided for entertainment purposes only.</li>
+    <li>They should not be relied upon for medical, financial, legal, or other critical decisions.</li>
+    <li>Heatline does not provide therapy, counseling, or professional advice of any kind.</li>
+  </ul>
+
+  <h2>9. Security</h2>
+  <p>We take reasonable measures to protect your information on your device and within Firebase. However, Heatline is not responsible for data loss, corruption, or unauthorized access caused by malware, jailbreaking, insecure backups, or device mismanagement.</p>
+
+  <h2>10. Third‑Party Services</h2>
+  <ul>
+    <li><strong>Firebase:</strong> Authentication, analytics, and database storage.</li>
+    <li><strong>OpenAI API:</strong> AI insights generation.</li>
+    <li><strong>Apple App Store:</strong> Purchase processing.</li>
+    <li><strong>WhatsApp export functionality:</strong> User‑initiated chat export.</li>
+  </ul>
+  <p>Heatline is not responsible for outages, errors, or changes in these services. Continued availability of features may depend on third‑party providers outside our control.</p>
+
+  <h2>11. Children’s Privacy</h2>
+  <p>Heatline is not directed to children under 16. We do not knowingly collect personal information from children. If you believe a child has provided data, please contact us so we can take appropriate action.</p>
+
+  <h2>12. Data Retention</h2>
+  <p>Internal records are retained only as long as necessary to enforce purchases, refunds, and usage limits. Chat content is not retained beyond processing. You may delete exported chat files at any time.</p>
+
+  <h2>13. International Transfers</h2>
+  <p>AI insights are processed by OpenAI’s API, which may involve servers located outside your country. Firebase services may also involve servers located outside your country. By using Heatline, you consent to such transfers.</p>
+
+  <h2>14. Governing Law & Jurisdiction</h2>
+  <p>This Privacy Policy shall be governed by and construed in accordance with the laws of Switzerland. Any disputes arising under or in connection with this Privacy Policy shall be subject to the exclusive jurisdiction of the courts of Geneva, Switzerland.</p>
+
+  <h2>15. Severability</h2>
+  <p>If any provision of this Privacy Policy is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.</p>
+
+  <h2>16. Developer Identity</h2>
+  <p>StudioKrieg is the developer name used for publishing Heatline: Dating Insights on the Apple App Store. StudioKrieg is not a registered company.</p>
+
+  <h2>17. Changes to this Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Updates will be posted within the App or on our website. Continued use of the App after changes constitutes acceptance of the updated Privacy Policy.</p>
+
+  <h2>18. Contact</h2>
+  <p>For questions about this Privacy Policy, please contact us at: StudioKrieg. StudioKrieg is the developer name used for publishing Heatline: Dating Insights on the Apple App Store. StudioKrieg is not a registered company. <a href="https://studiokrieg21.github.io/heatline/privacy.html">https://studiokrieg21.github.io/heatline/privacy.html</a></p>
+
+  <a href="index.html" class="back-link">Back to Home</a>
 </body>
 </html>

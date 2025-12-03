@@ -1,28 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - Heatline</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: #0f172a;
-            color: #e2e8f0;
-            padding: 40px;
-        }
-        h1 {
-            color: white;
-        }
-        a {
-            color: #667eea;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service - Heatline</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 20px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      color: white;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 10px;
+      margin-top: 40px;
+    }
+    h1 {
+        margin-top: 20px;
+    }
+    p, li {
+      color: #cbd5e1;
+    }
+    a {
+      color: #667eea;
+      text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    .meta-info {
+        color: #94a3b8;
+        font-size: 0.9em;
+    }
+    .back-link {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 10px 20px;
+        background-color: #1e293b;
+        border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Terms of Service</h1>
-    <p>placeholder</p>
-    <br>
-    <a href="index.html">Back to Home</a>
+  <h1>Heatline: Dating Insights Terms of Service</h1>
+  <p class="meta-info">Effective Date: December 2025<br>Last Updated: December 2025</p>
+
+  <p>Welcome to Heatline: Dating Insights (“App”). For simplicity, this document may also refer to the App as “Heatline.” Both names refer to the same application. By downloading, accessing, or using the App, you agree to be bound by these Terms of Service (“Terms”). Please read them carefully.</p>
+
+  <h2>1. Use of the App</h2>
+  <ul>
+    <li>Heatline provides chat analytics and AI‑powered insights for entertainment purposes only.</li>
+    <li>You must be at least 18 years old to use the App.</li>
+    <li>You agree to use the App only for lawful purposes and in compliance with these Terms.</li>
+  </ul>
+
+  <h2>2. Privacy and Data Handling</h2>
+  <ul>
+    <li>All chat analytics are processed locally on your device.</li>
+    <li>For AI insights, only your latest messages and analytics are sent securely to the OpenAI API for processing.</li>
+    <li>Heatline does not store, share, or retain your chat data on its servers.</li>
+    <li>Users are responsible for handling exported chat files securely. Heatline does not control how exported files are stored or shared once outside the App.</li>
+    <li>For more details, please review our <a href="privacy.html">Privacy Policy</a>.</li>
+  </ul>
+
+  <h2>3. Purchases and Authentication</h2>
+  <ul>
+    <li>Purchases are processed securely through Apple’s App Store. Heatline does not have access to your Apple ID.</li>
+    <li>Heatline only receives a transaction identifier from Apple, which is linked to the username you create in the App.</li>
+    <li>Authentication within Heatline is handled via email or Google account through Firebase. These credentials may differ from your Apple ID.</li>
+    <li>Each transaction identifier corresponds to a single Apple ID, but Heatline only uses the transaction identifier and does not access the Apple ID itself.</li>
+    <li>Each transaction identifier is associated with a single username. Multiple usernames per transaction identifier are not permitted.</li>
+    <li>If you attempt to restore purchases under a different username than the one originally linked to the transaction identifier, the restore will not work.</li>
+    <li>A “Restore Purchases” option is provided in accordance with Apple’s requirements.</li>
+    <li>Heatline reserves the right to restrict future purchases if a user has received more than two refunds.</li>
+    <li>If any usage of the AI assistant occurs before or after a refund is processed, Heatline reserves the right to challenge the refund and revoke access.</li>
+  </ul>
+
+  <h2>4. Internal Records</h2>
+  <p>Heatline maintains internal records in its Firebase database to enforce fair usage and manage purchases. These records may include:</p>
+  <ul>
+    <li><strong>User records:</strong> subscription status, expiration date, latest and original transaction IDs, product ID, revocation count, revocation timestamps, refund status, and store source.</li>
+    <li><strong>Transaction records:</strong> expiration status, usage limit status, refund status, product ID, purchase date, revocation details, transaction status, store source, usage metrics (input tokens, output tokens, request count), linked user ID, and verification details (transaction ID, validation timestamp).</li>
+  </ul>
+  <p>These records are used only for purchase validation, refund management, usage enforcement, and service integrity.</p>
+
+  <h2>5. AI Assistant Access</h2>
+  <ul>
+    <li>A one‑time purchase unlocks 7 days of access to the AI assistant.</li>
+    <li>Access is subject to a fair usage limit of approximately 200 queries during the 7‑day period.</li>
+    <li>This purchase is non‑renewable; continued access requires a new purchase.</li>
+    <li>The AI assistant may generate responses that are inaccurate, incomplete, or subjective. Insights should not be relied upon for medical, financial, legal, or other critical decisions.</li>
+    <li>The AI assistant does not provide therapy, counseling, or professional advice of any kind.</li>
+  </ul>
+
+  <h2>6. Service Availability</h2>
+  <ul>
+    <li>Heatline’s AI assistant relies on third‑party services, including the OpenAI API and Google Firebase.</li>
+    <li>While Heatline monitors usage and capacity closely, temporary unavailability may occur if usage limits are reached or if third‑party services experience outages.</li>
+    <li>Heatline does not guarantee uninterrupted access to the AI assistant.</li>
+    <li>Users acknowledge that occasional downtime, delays, or failures in generating AI insights may occur, and such interruptions do not entitle users to refunds beyond Apple’s standard policies.</li>
+  </ul>
+
+  <h2>7. Disclaimer of Responsibility</h2>
+  <ul>
+    <li>Heatline is not affiliated with WhatsApp or Meta.</li>
+    <li>The App and AI assistant are provided for entertainment purposes only.</li>
+    <li>Heatline and its creators accept no liability for any outcomes in your personal relationships. This includes, but is not limited to, breakups, conflicts, misunderstandings, or emotional distress.</li>
+    <li>Heatline is not responsible for emotional impact, anxiety, or discomfort caused by analytics or AI insights.</li>
+    <li>Users remain solely responsible for their own choices, actions, and outcomes.</li>
+    <li>By using the App, you acknowledge that the AI assistant’s insights are opinion‑like outputs generated by software and should not be treated as professional advice.</li>
+    <li>Heatline does not guarantee accuracy, reliability, or predictive value of analytics or AI outputs.</li>
+  </ul>
+
+  <h2>8. Third‑Party Services</h2>
+  <ul>
+    <li>Heatline relies on third‑party services, including the OpenAI API, Google Firebase (for authentication, usage tracking, and analytics), Apple App Store, and WhatsApp export functionality.</li>
+    <li>Heatline is not responsible for outages, errors, or changes in those services.</li>
+    <li>Continued availability of features may depend on third‑party providers outside Heatline’s control.</li>
+  </ul>
+
+  <h2>9. Device & Data Risks</h2>
+  <ul>
+    <li>Users are responsible for ensuring their device is secure.</li>
+    <li>Heatline is not liable for data loss, corruption, or unauthorized access caused by malware, jailbreaking, insecure backups, or device mismanagement.</li>
+  </ul>
+
+  <h2>10. Intellectual Property</h2>
+  <p>All content, design, and features of the App are owned by StudioKrieg unless otherwise noted. You may not copy, modify, distribute, or reverse engineer any part of the App without prior written consent.</p>
+
+  <h2>11. Limitation of Liability</h2>
+  <p>To the maximum extent permitted by law, Heatline’s liability is limited to the amount paid for the App. Heatline and its creators shall not be liable for indirect, incidental, or consequential damages arising from use of the App.</p>
+
+  <h2>12. Termination</h2>
+  <p>We reserve the right to suspend or terminate access to the App if you violate these Terms or misuse the service.</p>
+
+  <h2>13. Changes to Terms</h2>
+  <p>Heatline may update these Terms from time to time. Updates will be posted within the App or on our website. Continued use of the App after changes constitutes acceptance of the new Terms.</p>
+
+  <h2>14. Governing Law & Jurisdiction</h2>
+  <p>These Terms shall be governed by and construed in accordance with the laws of Switzerland. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of Geneva, Switzerland.</p>
+
+  <h2>15. User Conduct</h2>
+  <p>You agree not to misuse the App, including but not limited to:</p>
+  <ul>
+    <li>Attempting to reverse engineer, decompile, or otherwise tamper with the App.</li>
+    <li>Using the App for fraudulent, unlawful, or abusive purposes.</li>
+    <li>Circumventing usage limits, authentication rules, or purchase restrictions. Violation of these rules may result in termination of access without refund.</li>
+  </ul>
+
+  <h2>16. Indemnification</h2>
+  <p>You agree to indemnify and hold harmless StudioKrieg, its developer, and affiliates from any claims, damages, liabilities, or expenses arising out of your misuse of the App, violation of these Terms, or reliance on AI insights for personal decisions.</p>
+
+  <h2>17. Severability</h2>
+  <p>If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.</p>
+
+  <h2>18. Contact</h2>
+  <p>For questions about these Terms, please contact us at: StudioKrieg. StudioKrieg is the developer name used for publishing Heatline: Dating Insights on the Apple App Store. StudioKrieg is not a registered company. <a href="https://studiokrieg21.github.io/heatline/terms.html">https://studiokrieg21.github.io/heatline/terms.html</a></p>
+
+  <a href="index.html" class="back-link">Back to Home</a>
 </body>
 </html>
